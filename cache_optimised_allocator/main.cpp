@@ -12,5 +12,6 @@ int main ( )
 
 	d.resize ( 12 );
 
+	std::system ( "pause" );
 	return 0;
 }
