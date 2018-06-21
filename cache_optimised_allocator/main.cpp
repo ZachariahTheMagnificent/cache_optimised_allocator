@@ -1,5 +1,5 @@
 #include <vector>
-#include "AlignedMemoryAllocator.h"
+#include "aligned_memory_allocator.hpp"
 
 int main ( )
 {

@@ -18,7 +18,7 @@ namespace custom_allocators
 			using void_pointer = void*;
 			using const_void_pointer = const void*;
 
-			using pointer = T*;
+			using pointer = T * ;
 			using const_pointer = const T*;
 
 			using value_type = T;
