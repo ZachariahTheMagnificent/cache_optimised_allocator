@@ -1,5 +1,18 @@
 #include <vector>
 #include "AlignedMemoryAllocator.h"
+#include  "Test.h"
+
+template<typename Type>
+void GetId ( )
+{
+	return 0;
+}
+
+template<>
+void GetId<int> ( )
+{
+	return 1;
+}
 
 int main ( )
 {
